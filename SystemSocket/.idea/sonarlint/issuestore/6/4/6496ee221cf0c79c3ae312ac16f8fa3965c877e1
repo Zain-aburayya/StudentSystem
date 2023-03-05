@@ -1,12 +1,0 @@
-
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-Z
-java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(¿Øî¦
-
-java:S1450"]Remove the "authentication" field and declare it as a local variable in the relevant methods.(ðŒý»þÿÿÿÿ8¡û¤˜ë0
-j
-java:S1450"TRemove the "input" field and declare it as a local variable in the relevant methods.(  º€
-p
-java:S1450"URemove the "output" field and declare it as a local variable in the relevant methods.(Üƒ®Ýþÿÿÿÿ
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8ôáÊ™ë0
