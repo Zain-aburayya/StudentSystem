@@ -1,0 +1,49 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112U"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+‹
+java:S11923"pDefine a constant instead of duplicating this literal "The result of the query is empty , check again." 5 times.(õˆ¿Ãûÿÿÿÿ
+†
+java:S1319h"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¯Ìº
+f
+java:S2259a"KA "NullPointerException" could be thrown; "getAnalytics()" can return null.(×‚áâıÿÿÿÿ
+^
+java:S2259e"HA "NullPointerException" could be thrown; "getMedian()" can return null.( ”Ğ
+a
+java:S2259^"KA "NullPointerException" could be thrown; "getAnalytics()" can return null.(““è
+a
+java:S2259Z"KA "NullPointerException" could be thrown; "getAnalytics()" can return null.(çÎ½Æ
+j
+java:S2095l"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ»ÊŞûÿÿÿÿ
+c
+java:S2095š"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+c
+java:S2095ª"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+c
+java:S2095„"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+b
+java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+b
+java:S2095."GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
+i	java:S116"ORename this field "HOST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ëÂ©ùÿÿÿÿ
+x	java:S116"^Rename this field "MYSQL_ROOT_USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àŒÍÈúÿÿÿÿ
+x	java:S116"^Rename this field "MYSQL_ROOT_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë±½ûøÿÿÿÿ
+n	java:S116"YRename this field "MYSQL_DATABASE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê·»ß
+<
+java:S1170"!Make this final field static too.(¾ëÂ©ùÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(àŒÍÈúÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(Ë±½ûøÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(ê·»ß
+s
+java:S1845d"XRename method "getMEDIAN" to prevent any misunderstanding/clash with method "getMedian".(˜ÈÂ¨ùÿÿÿÿ
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+Q
+java:S6437"6Revoke and change this password, as it is compromised.(ë’Ãúüÿÿÿÿ
+H
+java:S1068"2Remove this unused "MYSQL_DATABASE" private field.(ê·»ß
