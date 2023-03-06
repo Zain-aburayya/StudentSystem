@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Choose</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-top: 40px;
+    }
+
+    form {
+      margin: 30px auto;
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #333;
+      font-weight: bold;
+    }
+
+    select {
+      display: block;
+      margin-bottom: 20px;
+      padding: 20px;
+      font-size: 16px;
+      color: #333;
+      background-color: #f2f2f2;
+      border: none;
+      border-radius: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 10px 20px;
+      background-color: cornflowerblue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: green;
+    }
+    form {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+<h1>Choose Course</h1>
+<form action="#" th:action="@{/student/__${id}__/__${route}__}" th:object="${mark}" method="post">
+  <label for="course"> Choose Course </label>
+  <select th:field="*{name}" name="course" id="course">
+    <option value="math"> Math </option>
+    <option value="physics"> Physics </option>
+    <option value="arabic"> Arabic </option>
+  </select>
+  <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
